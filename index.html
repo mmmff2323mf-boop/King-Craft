@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>King Craft</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0f0d;
+      color: #fff;
+    }
+    header {
+      background: #101713;
+      border-bottom: 1px solid #1f3d2b;
+      padding: 18px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo { color: #39d353; font-size: 28px; font-weight: bold; }
+    nav a {
+      color: #ddd;
+      text-decoration: none;
+      margin-right: 16px;
+    }
+    nav a:hover { color: #39d353; }
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background: linear-gradient(180deg, #102016, #0b0f0d);
+    }
+    .hero h1 { font-size: 48px; margin: 0 0 15px; color: #39d353; }
+    .hero p { font-size: 19px; color: #bbb; }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 13px 25px;
+      border-radius: 10px;
+      background: #39d353;
+      color: #071009;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .section { padding: 35px 20px; max-width: 1000px; margin: auto; }
+    .section h2 { color: #39d353; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+    .card {
+      background: #121a15;
+      border: 1px solid #244a31;
+      border-radius: 14px;
+      padding: 22px;
+    }
+    .card h3 { margin-top: 0; }
+    .card p { color: #aaa; line-height: 1.6; }
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #777;
+      border-top: 1px solid #1f3d2b;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">👑 King Craft</div>
+    <nav>
+      <a href="#">الرئيسية</a>
+      <a href="#mods">المودات</a>
+      <a href="#addons">الإضافات</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>King Craft 👑</h1>
+    <p>موقع لتحميل ومشاركة إضافات ومودات Minecraft Bedrock</p>
+    <a class="button" href="#mods">استكشف الآن</a>
+  </section>
+
+  <section class="section" id="mods">
+    <h2>🔥 أحدث المودات</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>مود جديد</h3>
+        <p>أضف مودات Minecraft Bedrock المفضلة لديك هنا.</p>
+        <a class="button" href="#">تحميل</a>
+      </div>
+      <div class="card">
+        <h3>مود المغامرات</h3>
+        <p>اكتشف محتوى جديدًا وممتعًا لعالمك.</p>
+        <a class="button" href="#">تحميل</a>
+      </div>
+      <div class="card">
+        <h3>مود الأسلحة</h3>
+        <p>قسم مخصص للمودات والإضافات الجديدة.</p>
+        <a class="button" href="#">تحميل</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="addons">
+    <h2>🟢 الإضافات</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>إضافة Minecraft</h3>
+        <p>مكان لوضع وصف الإضافة ورابط التحميل لاحقًا.</p>
+      </div>
+      <div class="card">
+        <h3>إضافة جديدة</h3>
+        <p>سنضيف المزيد من الإضافات هنا عندما نبدأ برفع الملفات.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 King Craft - جميع الحقوق محفوظة
+  </footer>
+</body>
+</html>
